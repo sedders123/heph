@@ -1,0 +1,29 @@
+{
+  "name": "heph",
+  "version": "0.1.0",
+  "description": "Project building tool",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sedders123/heph.git"
+  },
+  "author": "James Seden Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sedders123/heph/issues"
+  },
+  "homepage": "https://github.com/sedders123/heph#readme",
+  "dependencies": {
+    "@iarna/toml": "^3.0.0",
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "find-up": "^4.1.0",
+    "inquirer": "^7.3.3"
+  },
+  "main": "./bin/index.js",
+  "bin": {
+    "heph": "./bin/index.js"
+  }
+}

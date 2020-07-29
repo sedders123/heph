@@ -1,0 +1,10 @@
+name = "simple"
+
+[components.node]
+deps = ["npm"]
+setup_commands = ["node index.js"]
+
+[deps]
+[deps.npm]
+minVersion="6.0.0"
+cmd="npm"
