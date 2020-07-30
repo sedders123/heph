@@ -19,6 +19,7 @@
     "@iarna/toml": "^3.0.0",
     "chalk": "^4.1.0",
     "commander": "^6.0.0",
+    "compare-versions": "^3.6.0",
     "find-up": "^4.1.0",
     "inquirer": "^7.3.3"
   },

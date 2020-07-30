@@ -6,5 +6,5 @@ setup_commands = ["node index.js"]
 
 [deps]
 [deps.npm]
-minVersion="6.0.0"
-cmd="npm"
+min_version="6.0.0"
+command="npm"
